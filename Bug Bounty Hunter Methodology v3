@@ -1,0 +1,67 @@
+Bug Bounty Hunter Methodolgy v3 notes
+
+Disovering the IP Space
+
+    Identify hosts and IP Space
+        Autonomus System Number - HTTPS://BGP.HE.notes
+
+        ARIN & RIPE
+            Ip's and Domains
+
+        https://reverse.report/
+            Find domains within ranges, find domains related to IP's
+        
+        Shodan www.shodan.io
+            eg (org:"Tesla Motors")
+
+
+Discovering New Targets
+
+    Brand Discovery
+        
+        - Acquistions 
+            -wikipedia
+            -crunchbase
+        
+        - Linked Discovery
+            - Burp Spidering
+                (manully surf web, burp builds map of site )
+                hit forms with spider?
+                     
+        - Weighted Link and Reverse Tracker Analysis
+            - DomLink
+            - BuiltWith
+                discoveor the stack of a  website 
+
+        - Amass (better than sublist3r)
+             - github "cafix"
+        
+        - Subfinder
+            - similar to Amass
+            - json
+            - multi resolver bruteforce
+        
+        - commonspeak
+            -subdomain bruteforce data
+
+Enumerating Targets
+
+    - Portscan
+    
+        - Masscan
+            -fastest port scanner
+        
+    - Brutespray
+        - takes output of mass scanner
+
+    - Eyewitness
+        - uses headless browser to screenshot domains with http and https
+
+    
+
+
+
+
+
+
+
